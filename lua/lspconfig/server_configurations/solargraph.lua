@@ -2,7 +2,7 @@ local util = require 'lspconfig.util'
 
 return {
   default_config = {
-    cmd = vim.lsp.rpc.connect('127.0.0.1', 7658),
+       cmd = vim.lsp.rpc.connect('127.0.0.1', 7658),
     settings = {
       solargraph = {
         diagnostics = true,
