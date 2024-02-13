@@ -2,7 +2,7 @@ local util = require 'lspconfig.util'
 
 return {
   default_config = {
-    cmd = vim.lsp.rpc.connect('127.0.0.1', 5555),
+    cmd = vim.lsp.rpc.connect('127.0.0.1', 1488),
     filetypes = { 'ruby' },
     root_dir = util.root_pattern('Gemfile', '.git'),
     single_file_support = false
